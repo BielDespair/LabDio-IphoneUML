@@ -26,4 +26,4 @@ Este projeto simula funcionalidades básicas de um iPhone utilizando Java.
 - `closePage()`: Fecha a aba atual e remove das abas.
 
 # Diagrama UML do Projeto
-![Diagrama Iphone](uml/DiagramaUML.png) -> (uml/DiagramaUML.png?)
+![Diagrama Iphone](uml/DiagramaUML.png?)

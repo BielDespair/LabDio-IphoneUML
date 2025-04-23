@@ -24,7 +24,7 @@ public class MusicPlayer {
         System.out.println("Paused");
     }
 
-    public void resume() {
+        public void resume() {
         System.out.println("Resuming " + currentSong.title());
     }
 

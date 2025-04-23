@@ -7,24 +7,24 @@ import java.util.List;
 
 public class Dialer {
     private String phoneNumber;
+    private final List<Message> voicemail = new ArrayList<>();
 
     public Dialer(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
-    private final List<Message> voicemail = new ArrayList<>();
 
 
     public void call(String phoneNumber) {
         System.out.println("Dialing " + phoneNumber + "...");
     }
 
-    public void answerCall(String phoneNumber) {
-        System.out.println("Answering " + phoneNumber + "...");
+    public void answerCall() {
+        System.out.println("Answering call");
 
     }
 
-    public void voiceMail() {
+    public void checkVoiceMail() {
         for (Message message : voicemail) {
             System.out.println(message);
             voicemail.remove(message);

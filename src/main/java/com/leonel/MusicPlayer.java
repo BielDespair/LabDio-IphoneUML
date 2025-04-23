@@ -15,7 +15,7 @@ public class MusicPlayer {
         System.out.println("Now playing: " + song.title());
     }
 
-    public void playNext(Song song) {
+    public void playNext() {
         Song next = playlist.getNextSong();
         play(next);
     }
